@@ -11,11 +11,11 @@ includes = ["crashdetect-(.*)-linux"]
 plugins = ["crashdetect-(.*)-linux/crashdetect.so"]
 
 [resource.windows]
-name = "^crashdetect-(.*)-win32.tar.gz$"
+name = "^crashdetect-(.*)-win32.zip$"
 archive = true
 includes = ["crashdetect-(.*)-win32"]
-plugins = ["crashdetect-(.*)-win32/crashdetect.so"]
+plugins = ["crashdetect-(.*)-win32/crashdetect.dll"]
 
 [runtime]
-plugins = ["Zeex/samp-plugin-crashdetect"]
+plugins = ["pulsepm/samp-plugin-crashdetect"]
 
