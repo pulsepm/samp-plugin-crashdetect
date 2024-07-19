@@ -1,5 +1,5 @@
 [project]
-name = "Some Project"
+name = "Crash Detect Plugin"
 publisher = "pulsepm"
 repo = "samp-plugin-crashdetect"
 include_path = "include"
