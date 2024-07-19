@@ -4,13 +4,13 @@ publisher = "pulsepm"
 repo = "samp-plugin-crashdetect"
 include_path = "include"
 
-[resources.linux]
+[resource.linux]
 name = "^crashdetect-(.*)-linux.tar.gz$"
 archive = true
 includes = ["crashdetect-(.*)-linux"]
 plugins = ["crashdetect-(.*)-linux/crashdetect.so"]
 
-[resources.windows]
+[resource.windows]
 name = "^crashdetect-(.*)-win32.tar.gz$"
 archive = true
 includes = ["crashdetect-(.*)-win32"]
